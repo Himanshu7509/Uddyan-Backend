@@ -1,0 +1,18 @@
+{
+  "_id": "69c14257f5226417adb2601c",
+  "name": "Jade Plant",
+  "price": 249,
+  "category": "69c0d7eda3f064f962b84f2d",
+  "image": "https://uddyan-bucket.s3.ap-south-1.amazonaws.com/products/1774273111180-gemini-2.5-flash-image_Ultra_realistic_professional_product_photoshoot_of_a_small_indoor_self_watering_-0%20%2813%29.jpg",
+  "description": "jade plant",
+  "vastuBenefits": [
+    "dassd"
+  ],
+  "careInstructions": [
+    "sadsada"
+  ],
+  "inStock": true,
+  "createdAt": "2026-03-23T13:38:31.844Z",
+  "updatedAt": "2026-03-23T13:38:31.844Z",
+  "__v": 0
+}

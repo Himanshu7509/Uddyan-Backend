@@ -13,7 +13,7 @@
 2. Open a **New Request** tab.
 3. Change the HTTP method dropdown from `GET` to **`POST`**.
 4. Enter your endpoint URL in the address bar:
-   `http://localhost:5000/api/upload`
+   `https://api.uddyan.com/api/upload`
    *(Replace `5000` with your actual server port if it’s different)*.
 
 ### Step 2: Configure the Request Body

@@ -1,6 +1,6 @@
 async function test() {
   console.log('Logging in...');
-  const loginRes = await fetch('http://localhost:5000/api/auth/login', {
+  const loginRes = await fetch('https://api.uddyan.com/api/auth/login', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ email: 'uddyanadmin@gmail.com', password: 'Uddyan@2026' })
@@ -18,13 +18,13 @@ async function test() {
   console.log('Got cookie:', cookie);
   
   console.log('Testing GET /api/cart...');
-  const getRes = await fetch('http://localhost:5000/api/cart', {
+  const getRes = await fetch('https://api.uddyan.com/api/cart', {
     headers: { 'Cookie': cookie || '' }
   });
   console.log('GET status:', getRes.status, await getRes.text());
   
   console.log('Testing PUT /api/cart...');
-  const putRes = await fetch('http://localhost:5000/api/cart', {
+  const putRes = await fetch('https://api.uddyan.com/api/cart', {
     method: 'PUT',
     headers: { 
       'Cookie': cookie || '',

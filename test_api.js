@@ -1,4 +1,4 @@
-const API = 'http://localhost:5000/api';
+const API = 'https://api.uddyan.com/api';
 
 async function safeFetch(url, options) {
   const res = await fetch(url, options);
